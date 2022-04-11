@@ -1,17 +1,45 @@
 <!--the reason for creating an index file is for the browser to run it first. no need to type in test.html etc.-->
-<!DOCTYPE html>
+<!-- shortcut to writing comments is ctrl & forward slash -->
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Wreck-it Ralph</title>
+	<link rel="icon" href="img/Ralph Avatar.jpeg">
 </head>
 <body>
-	<header>
-		<img src="img/Ralph-Avatar.jpeg"
-		<h1> Wreck-it Ralph</header>h1>
+	<!-- Header element -->
+	<header> 
+		<img src="img/Ralph Avatar.jpeg">
+	<h1><br>Wreck-it Ralph</h1>
 	</header>
 
+	<!-- Main element -->
+	<main>
+		<h2> About Ralph</h2>
+		<img src="img/Ralph.jpeg">
+		<p>
+			Ralph is awesome! He's an 8-bit videogame bad guy who travels the laugh of the arcade to prove that he's a good guy
+		</p>
+		<!-- Ol = ordered list, a list with numbers on the left hand side -->
+		<ol>
+			<li>He's got a big head</li>
+			<li>He's treated with great respect</li>
+			<li>He's trying to save the world</li>
+		</ol>
+		<p>Click on the links below to read more about them</p>
+		<!-- Unordered list, isntead of numbers there will be discs on the left hand -->
+		<ul>
+			<!-- An anchor element(a) is used to create hyperlink -->
+			<!-- Target + _blank allows a new page to be opened when the link is clicked -->
+			<li><a target="_blank"href="https://en.wikipedia.org/wiki/Pac-Man">Pac-Man</a></li>
+			<li><a target="_blank"href="https://en.wikipedia.org/wiki/Mario">Mario</a></li>
+			<li><a target="_blank"href="https://en.wikipedia.org/wiki/Luigi">Luigi</a></li>
+		</ul>
+	</main>
+
+	<footer>
+		<!-- How to insert a copyright symbol is &copy; -->
+		<p>This site was created 2022. &copy;Martin</p>
+	</footer>
 </body>
 </html>
