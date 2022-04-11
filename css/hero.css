@@ -1,9 +1,9 @@
 body{
-	margin: 0; /*no margins on the page*/
+	margin: 0;
 }
 
 header{
-	background-color: #d14563;
+	background-color: #orange;
 	text-align: center;
 }
 
