@@ -1,3 +1,16 @@
 body{
-	background-color: lightsalmon;
+	margin: 0; /*no margins on the page*/
+}
+
+header{
+	background-color: #d14563;
+	text-align: center;
+}
+
+header h1{
+	color: white;
+}
+
+header img{
+	border-radius: 150px;
 }
